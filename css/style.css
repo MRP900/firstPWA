@@ -38,3 +38,9 @@ body {
   margin: 1em auto;
   text-align: center;
 }
+
+@media only screen and (max-width: 450px) {
+  #form-container {
+    width: 90%;
+  }
+}

@@ -25,3 +25,10 @@ body {
     width: 50%;
     margin: 1em auto;
 }
+
+#results {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}

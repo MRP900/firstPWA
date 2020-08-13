@@ -1,0 +1,27 @@
+#title {
+    color: blue;
+}
+
+body {
+  background-image: linear-gradient(to right, white 0%, rgb(129, 150, 194) 100%)}
+
+#output, #total, #rolls{
+  height: 1.5em;
+  margin-top: .75em;
+}
+
+#form-container {
+    width: 50%;
+    /* border: 2px solid black; */
+    margin: 6.5em auto;
+}
+
+/* .btn:hover {
+  background-color: green;
+} */
+
+#form-container>* {
+    text-align: center;
+    width: 50%;
+    margin: 1em auto;
+}

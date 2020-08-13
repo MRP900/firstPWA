@@ -1,0 +1,23 @@
+{
+    "name": "Dice PWA",
+    "short_name": "Dice",
+    "lang": "en-US",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "white",
+    "theme_color": "white",
+    "description": "A dice rolling app.",
+    "icons": [
+        {
+            "src": "images/fav512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "images/fav192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+        
+    ]
+}

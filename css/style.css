@@ -6,7 +6,7 @@ body {
   background-image: linear-gradient(to right, white 0%, rgb(129, 150, 194) 100%)}
 
 #output, #total, #rolls{
-  height: 1.5em;
+  min-height: 1.5em;
   margin-top: .75em;
 }
 

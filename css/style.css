@@ -27,6 +27,7 @@ body {
 }
 
 #results {
+  margin: 1em auto;
   text-align: center;
   display: flex;
   flex-direction: row;

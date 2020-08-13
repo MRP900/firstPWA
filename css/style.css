@@ -27,6 +27,7 @@ body {
 }
 
 #results {
+  text-align: center;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

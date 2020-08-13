@@ -27,10 +27,14 @@ body {
 }
 
 #results {
-  margin: 1em auto;
-  text-align: center;
+  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   flex-grow: 1;
+}
+
+#total {
+  margin: 1em auto;
+  text-align: center;
 }

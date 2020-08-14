@@ -22,16 +22,20 @@ body {
 
 #form-container>* {
     text-align: center;
-    width: 50%;
+    width: 75%;
     margin: 1em auto;
 }
 
 #results {
-  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   flex-grow: 1;
+}
+
+#output {
+  display: inline-block;
+  margin-left: 1em;
 }
 
 #total {

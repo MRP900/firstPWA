@@ -7,7 +7,6 @@
     "background_color": "green",
     "theme_color": "green",
     "description": "A dice rolling app.",
-    "https_only": "true",
     "icons": [
         {
             "src": "images/fav512.png",

@@ -1,3 +1,5 @@
+<?php Header("Cache-Control: max-age=3000, must-revalidate"); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +9,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
     <link rel="icon" href="images/faviconDice.png">
-    <link rel="manifest" href="./manifest.json">
+    <link rel="manifest" href="manifest.json">
     
     <title>Dice PWA</title>
 </head>
@@ -24,7 +26,7 @@
             
             <h1>Results:</h1>
             <div id=results>
-                <p id="total"></p><br>
+                <strong id="totalStrong"><p id="total"></p></strong><br>
             </div>
 
             <button id="clear" class="btn-lg btn-outline-primary">Clear</button>

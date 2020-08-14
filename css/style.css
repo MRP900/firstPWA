@@ -34,8 +34,12 @@ body {
 }
 
 #output {
-  display: inline-block;
   margin-left: 1em;
+}
+
+#rollContainer {
+  display: flex;
+  flex-direction: row;
 }
 
 #total {

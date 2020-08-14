@@ -24,15 +24,18 @@ window.onload =()=> {
     function dice(e) {
         const rand1 = Math.floor(Math.random() * 6) + 1;
         const dice = rand1-1;
-        output.setAttribute("href", diceImgs[dice]);
+        const altDice = "Dice " + rand1;
+        output.setAttribute("src", diceImgs[dice]);
+        output.setAttribute("alt", altDice);
         rolls.push(rand1);
         // totalRolls.innerHTML = rolls.length;
         allRolls.innerHTML = rolls.join(", ");
     }
 
     function reset() {
-        output.innerHTML = "";
-        rolls = [];
+        output.setAttribute("src", "");
+        output.setAttribute("alt", "");
+        // rolls = [];
         allRolls.innerHTML = "";
         // totalRolls.innerHTML = "";
     }

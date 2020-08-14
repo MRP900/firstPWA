@@ -24,17 +24,17 @@ window.onload =()=> {
     function dice(e) {
         const rand1 = Math.floor(Math.random() * 6) + 1;
         const dice = rand1-1;
-        const altDice = "Dice " + rand1;
-        output.setAttribute("src", diceImgs[dice]);
-        output.setAttribute("alt", altDice);
+        // const altDice = "Dice " + rand1;
+        output.src = diceImgs[dice];
+        // output.setAttribute("alt", altDice);
         rolls.push(rand1);
         // totalRolls.innerHTML = rolls.length;
         allRolls.innerHTML = rolls.join(", ");
     }
 
     function reset() {
-        output.setAttribute("src", "");
-        output.setAttribute("alt", "");
+        output.src = "";
+        // output.setAttribute("alt", "");
         // rolls = [];
         allRolls.innerHTML = "";
         // totalRolls.innerHTML = "";

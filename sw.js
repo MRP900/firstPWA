@@ -2,8 +2,7 @@ var cacheName = 'pwa';
 var filesToCache = [
     '/',
     'index.html',
-    'css/style.css',
-    'css/bootstrap.min.cs',
+    'css',
     'scripts/main.js',
     'images'
 ];

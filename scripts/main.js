@@ -2,7 +2,7 @@ window.onload =()=> {
 
     // Register service worker
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('sw.js');
+        navigator.serviceWorker.register('./sw.js');
     } 
     else console.log("Service worker not found.");
 

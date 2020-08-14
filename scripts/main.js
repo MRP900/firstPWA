@@ -33,9 +33,9 @@ window.onload =()=> {
     }
 
     function reset() {
-        output.src = "";
+        output.src = "./images/dice/dice6.png";
         // output.setAttribute("alt", "");
-        // rolls = [];
+        rolls = [];
         allRolls.innerHTML = "";
         // totalRolls.innerHTML = "";
     }

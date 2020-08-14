@@ -22,7 +22,7 @@ body {
 
 #form-container>* {
     text-align: center;
-    width: 75%;
+    width: 85%;
     margin: 1em auto;
 }
 
@@ -40,6 +40,7 @@ body {
 #rollContainer {
   display: flex;
   flex-direction: row;
+  width: 90%;
 }
 
 #total {

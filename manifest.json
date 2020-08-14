@@ -4,8 +4,8 @@
     "lang": "en-US",
     "start_url": "index.html",
     "display": "standalone",
-    "background_color": "white",
-    "theme_color": "white",
+    "background_color": "green",
+    "theme_color": "green",
     "description": "A dice rolling app.",
     "icons": [
         {

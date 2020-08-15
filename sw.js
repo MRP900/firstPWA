@@ -5,8 +5,8 @@ var filesToCache = [
     './css/style.css',
     './css/bootstrap.min.css',
     './scripts/main.js',
-    './images',
-    './images/dice'
+    // './images',
+    // './images/dice'
 ];
 
 // Start the service worker and cache all the app's content

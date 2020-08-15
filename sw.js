@@ -5,8 +5,14 @@ var filesToCache = [
     './css/style.css',
     './css/bootstrap.min.css',
     './scripts/main.js',
-    // './images',
-    // './images/dice'
+    "./images/dice/dice1.png",
+    "./images/dice/dice2.png",
+    "./images/dice/dice3.png",
+    "./images/dice/dice4.png",
+    "./images/dice/dice5.png",
+    "./images/dice/dice6.png",
+    "./images/dice/apple-touch-icon.png",
+    "./images/faviconDice.png",
 ];
 
 // Start the service worker and cache all the app's content
